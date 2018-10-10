@@ -14,7 +14,7 @@ $ meteor add fourseven:scss
 2. From within your Meteor app's directory:
 
 ```bash
-$ meteor add francocatena:compass
+$ meteor add pathable:compass
 ```
 
 ## Usage
@@ -22,13 +22,13 @@ $ meteor add francocatena:compass
 Simply import any Compass mixin at the top of your sass file
 
 ```scss
-@import "{francocatena:compass}/compass";
+@import "{pathable:compass}/compass";
 ```
 
 Or if you want to only use one submodule
 
 ```scss
-@import "{francocatena:compass}/compass/reset";
+@import "{pathable:compass}/compass/reset";
 ```
 
 ## Notes
